@@ -104,6 +104,17 @@ body {
 h5 {
     color: white;
 }
+.closeStyle {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 6px;
+    font-weight: bold;
+}
+.closeStyle:hover {
+    cursor: pointer;
+}
+
 
 @media(max-width: 750px){
     .question-footer {

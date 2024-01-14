@@ -17,9 +17,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./ptsans.css">
+
 </head>
 
 <body onload="init()">
@@ -36,8 +35,9 @@
         <div class="card quiz-card">
 
             <div class="my-sidebar" id="nav-bar">
-                <nav class="navbar navbar-light bg-dark">
+                <nav class="navbar navbar-light bg-dark" id="close-me">
                     <div class="container-fluid">
+                        <span onclick="closeNavbar()" class="closeStyle">X</span>
                         <img src="./QuizappDesign/logo.png">
 
                     </div>

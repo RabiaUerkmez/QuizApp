@@ -246,6 +246,9 @@ function restartGame() {
     init();
 
 }
+function closeNavbar() {
+    document.getElementById('close-me').style = 'display: none';
+}
 
 function autoCloseOnResize() {
     if (window.innerWidth <= 500) {
