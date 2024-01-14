@@ -1,0 +1,137 @@
+body {
+    background-color: #FEFAEF !important;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    background-color: #FEFAEF !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    gap: 160px;
+}
+.quiz-answer-card {
+    background-color: white;    
+    width: 32vw;
+}
+.quiz-answer-card:hover {
+    cursor: pointer;
+}
+
+.bg-success, .bg-danger {
+    color: black;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.card {
+    flex-direction: row !important;
+    min-width: 50vw !important;
+}
+.card-title {
+    margin-bottom: 48px !important;
+}
+
+.bg-dark {
+    height: 100%;
+    justify-content: center !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+.navbar {
+    width: 140px;
+    height: 100%;
+}
+
+.card-body {
+    background-image: url(./img/buch.jpg);
+    filter: brightness(0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 62vw;
+    height: 70vh;
+}
+
+.my-card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+
+
+.btn-warning {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    background-color: #FF4F0E !important;
+    border-color: #FF4F0E !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.start-seite {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.start-game-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h5 {
+    color: white;
+}
+
+@media(max-width: 750px){
+    .question-footer {
+        gap: 80px;
+    }
+}
+
+@media(max-width: 550px){
+    .card-title {
+        margin-bottom: 24px !important;
+    }
+    .my-card-body {
+        padding: 0.4rem 0.4rem;
+    }
+
+}
+
+@media(max-width: 400px) {
+    body {
+        font-size: 12px !important;
+    }
+    .question-footer {
+        gap: 32px;
+    }
+}
+
+@media(max-width: 300px) {
+    .question-footer {
+        gap: 16px;
+    }
+}
